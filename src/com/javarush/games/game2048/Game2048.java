@@ -244,9 +244,6 @@ public class Game2048 extends Game {
     }
 
     private boolean canUserMove() {
-        // возвращает true, если кол-во нулевых эл-тов больше нуля
-        // возвращать true, если нулевых элементов нет,
-        // но в матрице gameField есть хотя бы две соседние клетки с одинаковым значением (по горизонтали или вертикали).
         int count = 0;
         boolean flag = false;
 
